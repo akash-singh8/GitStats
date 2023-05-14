@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +9,26 @@
 body{
     background-color: #282A36;
     color: white;
+    font-family: 'Ubuntu', sans-serif;  
     text-align: center;
     height: 576px;
     width: 360px;
+}
+
+header{
+    align-items: center;
+    column-gap: 7px;
+    display: flex;
+    height: 28px;
+    margin: 8px 12px 18px;
+}
+
+header h1{ 
+    font-weight: 500; 
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+header img{
+    height: 100%;
 }
