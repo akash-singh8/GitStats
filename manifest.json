@@ -4,6 +4,18 @@
     "name": "GitHub Stats",
     "description": "Displays brief GitHub stats for a user.",
     "version": "1.0.0",
+
+    "action": {
+        "default_icon": {
+          "16": "logo.png",
+          "32": "logo.png",
+          "48": "logo.png",
+          "128": "logo.png"
+        },
+        "default_title": "GitHub Stats",
+        "default_popup": "popup.html"
+     },
+
      "icons": {
         "128": "logo.png"
     }
