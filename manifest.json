@@ -1,7 +1,7 @@
 {   
     "manifest_version": 3,
     "author": "Akash Singh",
-    "name": "GitHub Stats",
+    "name": "GitStats",
     "description": "Displays brief GitHub stats for a user.",
     "version": "1.0.0",
 
@@ -12,7 +12,7 @@
           "48": "logo.png",
           "128": "logo.png"
         },
-        "default_title": "GitHub Stats",
+        "default_title": "GitStats",
         "default_popup": "popup.html"
      },
 
