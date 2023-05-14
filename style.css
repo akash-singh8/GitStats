@@ -15,12 +15,48 @@ body{
     width: 360px;
 }
 
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    margin: 8px 12px 18px;
+}
+
+#search{
+    display: flex;
+    height: 94%;
+}
+
+#search img{
+    cursor: pointer;
+    padding: 2px 0;
+    padding-right: 4px;
+}
+
+#search input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: white;
+    display: none;
+    font-size: 12px;
+    padding: 2px 4px;
+    padding-left: 10px;
+    transition: all 0.25s ease-in-out;
+    transform: translate(138px);
+    letter-spacing: 0.5px;
+    outline: none;
+    width: 145px;
+}
+
 header{
     align-items: center;
     column-gap: 7px;
     display: flex;
-    height: 28px;
-    margin: 8px 12px 18px;
+    height: 100%;
 }
 
 header h1{ 
