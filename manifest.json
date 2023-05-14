@@ -1,0 +1,7 @@
+{   
+    "manifest_version": 3,
+    "author": "Akash Singh",
+    "name": "GitHub Stats",
+    "description": "Displays brief GitHub stats for a user.",
+    "version": "1.0.0"
+}
