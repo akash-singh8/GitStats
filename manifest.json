@@ -3,5 +3,8 @@
     "author": "Akash Singh",
     "name": "GitHub Stats",
     "description": "Displays brief GitHub stats for a user.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+     "icons": {
+        "128": "logo.png"
+    }
 }
