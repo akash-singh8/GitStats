@@ -11,7 +11,7 @@ body{
     color: white;
     font-family: 'Ubuntu', sans-serif;  
     text-align: center;
-    height: 576px;
+    height: 556px;
     width: 360px;
 }
 
@@ -67,4 +67,11 @@ header h1{
 
 header img{
     height: 100%;
+}
+
+
+.user_not_found{
+    height: 82%;
+    width: 95%;
+    object-fit: contain;
 }
