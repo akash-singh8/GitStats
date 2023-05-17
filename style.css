@@ -71,7 +71,6 @@ header img{
 
 
 .user_not_found{
-    display: none;
     height: 80%;
     width: 95%;
     object-fit: contain;
@@ -79,6 +78,7 @@ header img{
 
 section{
     display: flex;
+    display: none;
     flex-direction: column;
     height: 506px;
     justify-content: space-between;
