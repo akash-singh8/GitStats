@@ -33,46 +33,51 @@ search.addEventListener("click", () => {
 });
 
 // function to display user stats
-const notFound = document.querySelector(".user_not_found");
-const section = document.querySelector("section");
-
 function displayUserStats(user) {
   fetch(`https://api.github.com/users/${user}`)
     .then((response) => response.json())
     .then((data) => {
       console.log("Data :", data);
 
-      notFound.style.display = "none";
-      section.style.display = "flex";
+      document.querySelector(".user_not_found").style.display = "none";
 
-      document
-        .querySelector(".user_details img")
-        .setAttribute("src", data.avatar_url);
+      let section = document.querySelector("section");
+      if (!section) {
+        section = document.createElement("section");
+        document.querySelector("body").appendChild(section);
+      }
+      section.innerHTML = `
+      <div class="user_details">
+        <img
+          src=${data.avatar_url}
+          alt="avatar" />
+        <div>
+          <p id="user_name">${data.name}</p>
+          <p id="user_id">${user}</p>
+          <p><strong id="user_repo">${data.public_repos}</strong> repositories</p>
+        </div>
+      </div>
 
-      document.getElementById("user_name").innerText = data.name;
-      document.getElementById("user_id").innerText = user;
-      document.getElementById("user_repo").innerText = data.public_repos;
+      <img
+        src="https://github-readme-streak-stats.herokuapp.com?user=${user}&theme=dracula&hide_border=true&card_width=450"
+        alt="Streak stats"
+        class="streak_stats" />
 
-      document
-        .querySelector(".streak_stats")
-        .setAttribute(
-          "src",
-          `https://github-readme-streak-stats.herokuapp.com?user=${user}&theme=dracula&hide_border=true&card_width=450`
-        );
+      <div class="used_languages">
+        <p>
+          MOST <br />
+          USED <br />
+          LANGS
+        </p>
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs?username=${user}&show_icons=true&locale=en&layout=compact&theme=dracula&hide_border=true&hide_title=true"
+          alt="Most used languages" />
+      </div>
 
-      document
-        .querySelector(".used_languages img")
-        .setAttribute(
-          "src",
-          `https://github-readme-stats.vercel.app/api/top-langs?username=${user}&show_icons=true&locale=en&layout=compact&theme=dracula&hide_border=true&hide_title=true`
-        );
-
-      document
-        .querySelector(".profile_stats")
-        .setAttribute(
-          "src",
-          `https://github-readme-stats.vercel.app/api?username=${user}&theme=dracula&include_all_commits=true&count_private=true&show_icons=true&hide=contribs,commits&hide_border=true&hide_title=true`
-        );
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=${user}&theme=dracula&include_all_commits=true&count_private=true&show_icons=true&hide=contribs,commits&hide_border=true&hide_title=true"
+        alt="Github stats"
+        class="profile_stats" /> `;
     })
     .catch((error) => {
       console.log("Error:", error);
