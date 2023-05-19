@@ -18,5 +18,11 @@
 
      "icons": {
         "128": "logo.png"
-    }
+    },
+
+    "content_scripts": [
+      {
+        "js": ["content_script.js"],
+        "matches": ["https://github.com/*"]
+    }]
 }
