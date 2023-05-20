@@ -39,15 +39,15 @@ function displayUserStats(user) {
     .then((data) => {
       console.log("Data :", data);
 
+      document.querySelector(".user_not_found").style.display = "none";
+      let section = document.querySelector("section");
+      if (!section) {
+        section = document.createElement("section");
+        document.querySelector("body").appendChild(section);
+      }
+
       const type = data?.type;
       if (type === "User" || !type) {
-        document.querySelector(".user_not_found").style.display = "none";
-
-        let section = document.querySelector("section");
-        if (!section) {
-          section = document.createElement("section");
-          document.querySelector("body").appendChild(section);
-        }
         section.innerHTML = `
         <div class="user_details">
           <img
@@ -82,6 +82,23 @@ function displayUserStats(user) {
           class="profile_stats" /> `;
       } else if (type === "Organization") {
         console.log("Organization Github profile");
+        section.innerHTML = `
+        <div class="user_details">
+          <img src="${data.avatar_url}" alt="avatar" />
+          <div>
+            <p id="user_name">${data.name}</p>
+            <p id="user_id">${user}</p>
+            <p>
+              <strong id="user_repo">${data.public_repos}</strong> repositories
+            </p>
+          </div>
+        </div>
+
+        <div id="organization">
+          <img src="organization.png" alt="organization" />
+          <p>This is an Organization profile</p>
+          <p>Kindly refer to the user profile for detailed stats</p>
+        </div>`;
       }
     })
     .catch((error) => {
