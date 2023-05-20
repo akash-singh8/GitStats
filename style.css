@@ -123,6 +123,27 @@ section{
     color: #79dafa;
 }
 
+#organization{
+    height: 70%;
+    width: 100%;
+    padding: 0 12px;
+}
+
+#organization img{
+    height: 58%;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+#organization p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#organization p:last-child{
+    color: #79dafa;
+}
+
 .streak_stats{
     width: 100%;
 }
