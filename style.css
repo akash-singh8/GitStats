@@ -52,11 +52,16 @@ nav{
     width: 145px;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 header{
     align-items: center;
     column-gap: 7px;
     display: flex;
-    height: 100%;
+    height: 28px;
 }
 
 header h1{ 
