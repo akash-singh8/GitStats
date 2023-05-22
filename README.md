@@ -1,15 +1,42 @@
-# <img src="https://github.com/akash-singh8/GitStats/assets/85285176/7399b4c8-8d34-41dd-9ed9-28eeb9eec36d" width="44px" style="margin-bottom:-8px"> GITSTATS
+# <img src="https://github.com/akash-singh8/GitStats/assets/85285176/b9db3761-babd-4ec0-ba54-540248b784da" width="44px" style="margin-bottom:-8px"> GITSTATS
 
-Introducing a powerful and convenient tool for all GitHub users, a chrome extension that allows you to easily view a user's GitHub statistics right from their profile or by searching for their ID. With this extension, you can quickly access valuable insights about a user's GitHub activity, making it an essential tool for developers and enthusiasts.
+Introducing a powerful and convenient tool for all GitHub users, a chrome extension that allows you to easily view a user's GitHub statistics right from their profile or by searching for their username. With this extension, you can quickly access valuable insights about a user's GitHub activity, making it an essential tool for developers and enthusiasts.
 
 <br>
 
 ## Features
 
-- Seamless integration: Access GITSTATS with a single click from any user's GitHub profile or by searching for a specific user ID.
+- Seamless integration: Access GITSTATS with a single click from any user's GitHub profile or by searching for a specific user
 - Comprehensive statistics: Get detailed information about a user's GitHub activity, including their repository count, total stars received etc.
-- Contribution insights: Gain insights into a user's contributions, such as the number of commits, pull requests, and issues they have made.
-- User-friendly interface: Enjoy a clean and intuitive interface that presents the information in a visually appealing and easy-to-understand format.
+- Contribution insights: Gain insights into a user's contributions, such as the number of commits, pull requests, and issues they have made
+- User-friendly interface: Enjoy a clean and intuitive interface that presents the information in a visually appealing and easy-to-understand format
+
+<br>
+
+## Screenshots
+
+<div align="center">
+ <img src="https://github.com/akash-singh8/GitStats/assets/85285176/27429523-cc47-4154-b15d-2e77de2de06a" width="85%">
+  <p>------</p>
+</div>
+
+<div align="center">
+   <img src="https://github.com/akash-singh8/GitStats/assets/85285176/f8706484-886a-490f-94ad-56b9d454ce18" width="85%">
+  <p>------</p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/akash-singh8/GitStats/assets/85285176/0cb77bec-8470-4dba-97bd-3b46c802b334" width="85%">
+</div>
+
+<br>
+
+## Here are some additional benefits of using GITSTATS:
+
+- Save time by quickly accessing the information you need about a user's GitHub activity
+- Make better decisions about who to collaborate with or hire
+- Stay up-to-date on the latest developments in your field
+- Learn from other developers by analyzing their code
 
 <br>
 
@@ -52,15 +79,6 @@ Introducing a powerful and convenient tool for all GitHub users, a chrome extens
 
 <br>
 
-## Screenshots
-
-<div align="center">
-  <img src="https://github.com/akash-singh8/GitStats/assets/85285176/28a741bf-75bd-44dd-a145-31181de72764" width="40%">
-    <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
-  <img src="https://github.com/akash-singh8/GitStats/assets/85285176/4b19d56b-1201-4eba-82ec-c5695213b7f0" width="40%">
-</div>
-
-<br>
 
 ## Contributing
 
