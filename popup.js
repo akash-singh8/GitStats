@@ -95,7 +95,7 @@ function displayUserStats(user) {
         </div>
 
         <div id="organization">
-          <img src="organization.png" alt="organization" />
+          <img src="./Image/organization.png" alt="organization" />
           <p>This is an Organization profile</p>
           <p>Kindly refer to the user profile for detailed stats</p>
         </div>`;
