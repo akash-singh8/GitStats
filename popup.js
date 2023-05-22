@@ -50,14 +50,23 @@ function displayUserStats(user) {
       if (type === "User" || !type) {
         section.innerHTML = `
         <div class="user_details">
-          <img
-            src=${data.avatar_url}
+        ${
+          type
+            ? `
+            <img 
+            src=${data.avatar_url} 
             alt="avatar" />
-          <div>
-            <p id="user_name">${data.name}</p>
-            <p id="user_id">${user}</p>
-            <p><strong id="user_repo">${data.public_repos}</strong> repositories</p>
-          </div>
+            <div>
+              <p id="user_name">${data.name}</p>
+              <p id="user_id">${user}</p>
+              <p><strong id="user_repo">${data.public_repos}</strong> repositories</p>
+            </div>`
+            : `
+            <img src="./Image/limitExceed.png" alt="avatar" />
+            <p id="user_repo">Can't fetch user avatar or name <br>
+              <span id="user_id">${data.message.split("(")[0]}</span>
+            </p>`
+        }
         </div>
   
         <img
