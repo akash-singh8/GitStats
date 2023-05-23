@@ -1,3 +1,5 @@
+![gitstats_post](https://github.com/akash-singh8/GitStats/assets/85285176/d9396d03-6627-4cf2-b999-8040dcc98f4d)
+
 # <img src="https://github.com/akash-singh8/GitStats/assets/85285176/b9db3761-babd-4ec0-ba54-540248b784da" width="44px" style="margin-bottom:-8px"> GITSTATS
 
 Introducing a powerful and convenient tool for all GitHub users, a chrome extension that allows you to easily view a user's GitHub statistics right from their profile or by searching for their username. With this extension, you can quickly access valuable insights about a user's GitHub activity, making it an essential tool for developers and enthusiasts.
