@@ -44,7 +44,7 @@ Introducing a powerful and convenient tool for all GitHub users, a chrome extens
 
 ## How to Use
 
-1. Install the GITSTATS Chrome extension from the Chrome Web Store.
+1. Install the GITSTATS Chrome extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/gitstats/jlfolgnhjeibddjpcodabefpkggodigc/related).
 2. Navigate to any user's GitHub profile.
 3. Click on the GITSTATS extension icon in the Chrome toolbar to instantly view the user's statistics.
 4. Alternatively, click on the GITSTATS extension icon, enter the desired user ID in the search bar, and press search to fetch the statistics.
